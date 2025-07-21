@@ -1,0 +1,104 @@
+.service{
+    background: linear-gradient(90deg,rgba(92, 56, 175, 1) 0%, rgba(166, 121, 233, 1) 60%);
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    & h2{
+        font-size: 28px;
+        font-weight: bold;
+        margin:0;
+    }
+
+    & section{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    &-nav{
+        display: flex;
+        gap:20px;
+        padding: 0 20px 20px 20px;
+        font-size: 20px;
+        
+        &-item{
+            color:var(--text-primary);
+            text-decoration: none;
+            border-bottom: transparent;
+            transition: border-bottom 0.3s ease;
+
+            &:hover{
+                border-bottom: 3px solid var(--text-primary);
+            }
+        }
+    }
+    &-hero{
+    position: relative;
+    width: 100%;
+        & img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+
+        &-cta{
+            position: absolute;
+            top:10%;
+            left:5%;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            & h1{
+                color: var(--text-primary);
+                font-size: 3rem;
+                font-family: "Akaya Kanadaka",Arial, sans-serif;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    &-description{
+        background-color: var(--background-cta);
+        padding: 20px;
+        margin:20px 0;
+        
+        
+    }
+    &-method{
+        background-color: var(--background-cta);
+        padding: 20px;
+        margin:20px 0;
+        
+    }
+    &-stage{
+        background-color: var(--background-cta);
+        padding: 20px;
+        margin:20px 20px 40px 20px;
+        
+
+        & ul{
+            list-style-type: none;
+            counter-reset: css-counter 0;
+        }
+        & li{
+            margin:10px 0;
+            counter-increment: css-counter 1;
+            position:relative;
+        }
+        & li::before{
+            content:counter(css-counter);
+            color:var(--text-primary);
+            width: 24px;
+            height:24px;
+            border-radius:50%;
+            background-color:var(--background-primary);
+            text-align: center;
+            position:absolute;
+            left:-30px;
+        }
+        
+    }
+}

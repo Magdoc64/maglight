@@ -1,0 +1,24 @@
+.button-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: var(--background-cta);
+  padding: 20px 40px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  border: none;
+  width: 350px;
+}
+@media (max-width: 760px) {
+  .button-cta {
+    width: 250px;
+    font-size: 1.5rem;
+  }
+}
+.button-cta:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px var(--background-cta);
+}/*# sourceMappingURL=buttonCta.css.map */

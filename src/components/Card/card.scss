@@ -1,0 +1,59 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-decoration: none;
+    background-color: var(--background-cta);
+    transition: all 0.3s ease;
+
+    &-image{
+        width: 100%;
+        height: 130px;
+       & img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--text-secondary);
+
+        &-title{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        &-punchline{
+            & p{
+                margin-top:0;
+            }
+            &-soluce{
+                display: flex;
+                margin-top: 10px;
+                gap:8px;
+                font-weight: 500;
+                align-items: center;
+            }
+        }
+    }
+    &-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: var(--text-secondary);
+        list-style-type: none;
+        gap:10px;
+        padding-inline-start: 0;
+        margin: 0;
+    }
+}
+.card-link:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px var(--background-cta);
+}

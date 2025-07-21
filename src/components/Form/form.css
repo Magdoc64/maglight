@@ -1,0 +1,124 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.contact-form input {
+  height: 25px;
+  border-radius: 5px;
+  border-color: inherit;
+  background-color: var(--background-cta);
+  border-style: inherit;
+  box-shadow: 3px 3px 2px var(--background-cta);
+}
+.contact-form label {
+  margin-bottom: 5px;
+}
+.contact-form-name {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form-name-lastname {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  font-weight: 700;
+  width: 50%;
+  margin-right: 20px;
+}
+.contact-form-name-lastname label::after {
+  content: "*";
+  color: var(--background-cta);
+}
+.contact-form-name-firstname {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  width: 50%;
+  margin-right: 20px;
+}
+.contact-form-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form-contact-email {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  font-weight: 700;
+  width: 50%;
+  margin-right: 20px;
+}
+.contact-form-contact-email label::after {
+  content: "*";
+  color: var(--background-cta);
+}
+.contact-form-contact-tel {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  width: 50%;
+  margin-right: 20px;
+}
+.contact-form-objet {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  font-weight: 700;
+  margin-right: 20px;
+}
+.contact-form-objet label::after {
+  content: "*";
+  color: var(--background-cta);
+}
+.contact-form-message {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-cta);
+  font-weight: 700;
+  margin-right: 20px;
+}
+.contact-form-message label::after {
+  content: "*";
+  color: var(--background-cta);
+}
+.contact-form-message textarea {
+  background-color: var(--background-cta);
+  box-shadow: 3px 3px 2px var(--background-cta);
+  height: 50px;
+  border-radius: 5px;
+  border-style: inherit;
+}
+.contact-form-info {
+  font-size: 12px;
+  color: var(--background-cta);
+  font-weight: 700;
+}
+.contact-form-info::before {
+  content: "*";
+  color: var(--background-cta);
+}
+.contact-form-choice {
+  display: flex;
+  color: var(--background-cta);
+  font-weight: 700;
+  margin-top: 20px;
+}
+.contact-form-choice input {
+  box-shadow: none;
+  margin: 0 5px;
+}
+.contact-form-button {
+  width: 60%;
+  margin: 20px auto;
+  background: var(--background-cta);
+  box-shadow: 3px 3px 2px var(--background-cta);
+  border-style: inherit;
+  padding: 5px;
+  color: var(--text-secondary);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}/*# sourceMappingURL=form.css.map */

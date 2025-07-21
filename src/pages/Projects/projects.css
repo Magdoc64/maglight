@@ -1,0 +1,77 @@
+.projects-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+}
+.projects-hero h1 {
+  font-size: 3rem;
+  font-family: "Akaya Kanadaka", Arial, sans-serif;
+  color: var(--text-primary);
+  margin: 40px;
+}
+.projects-details {
+  padding: 20px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+}
+.projects-details-filter {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 24px;
+  color: var(--text-primary);
+}
+.projects-details-filter-item {
+  border-bottom: 3px solid transparent;
+}
+.projects-details-filter-item:hover {
+  cursor: pointer;
+  border-bottom: 3px solid var(--text-primary);
+}
+.projects-details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.projects-details-list-card {
+  height: 200px;
+  border-radius: 15px;
+  background-color: var(--background-cta);
+  box-shadow: 5px 10px 4px var(--background-primary);
+  color: var(--text-secondary);
+  padding: 10px;
+}
+.projects-details-list-card :hover {
+  cursor: pointer;
+}
+.projects-details-list-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 70%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.projects-details-list-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+.projects-details-list-card-content-title {
+  display: flex;
+  margin: 0;
+}
+.projects-details-list-card-content-tags {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=projects.css.map */

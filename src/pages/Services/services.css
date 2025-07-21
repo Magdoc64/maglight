@@ -1,0 +1,40 @@
+.services-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+}
+.services-hero img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+.services-hero h1 {
+  font-size: 3rem;
+  font-family: "Akaya Kanadaka", Arial, sans-serif;
+  color: var(--text-primary);
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.services-hero-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 40px 20px 40px;
+}
+.services-hero-cta h2 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+.services-details {
+  padding: 20px 20px 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+}/*# sourceMappingURL=services.css.map */

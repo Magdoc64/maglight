@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Développement Web",
+        "excerpt": [
+            "Agile approche Scrum",
+            "Optimisation SEO",
+            "Référencement local",
+            "Deboggage et tests",
+            "Intégration web",
+            "Maquettage HTML/CSS",
+            "Création d'applications React"
+        ],
+        "font": [
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-javascript-plain",
+            "devicon-react-original",
+            "devicon-redux-original"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "WordPress",
+        "excerpt": [
+            "Création de sites WordPress",
+            "Migration vers WordPress",
+            "Personnalisation de thèmes",
+            "Développement de plugins",
+            "Optimisation de la performance",
+            "Maintenance de sites WordPress"
+        ],
+        "font": [
+            "devicon-wordpress-plain",
+            "devicon-php-plain",
+            "devicon-mysql-plain"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "UX/UI Design",
+        "excerpt": [
+            "Planification de projets",
+            "Analyses des besoins utilisateurs",
+            "Tri de cartes, parcours utilisateurs",
+            "Tests utilisateurs",
+            "Maquettage, prototypage",
+            "Audit ergonomique"
+        ],
+        "font": [
+            "devicon-training-plain",
+            "devicon-figma-plain"
+        ]
+    }
+  
+]

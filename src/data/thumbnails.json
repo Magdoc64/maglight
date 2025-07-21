@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "font":"fa-solid fa-ear-listen",
+        "name": "A l'écoute",
+        "description":"Satisfaire les besoins utilisateurs, une priorité !"
+    },
+    {
+        "id": 2,
+        "font":"fa-solid fa-magnifying-glass",
+        "name": "Curieuse",
+        "description":"En quête de nouveaux savoirs, de nouveaux défis pour progresser."
+    },
+    {
+        "id": 3,
+        "font":"fa-solid fa-list-ul",
+        "name": "Rigoureuse",
+        "description":"Produire un code de qualité, une valeur essentielle !"
+    },
+    {
+        "id": 4,
+        "font":"fa-solid fa-battery-full",
+        "name": "Autonome",
+        "description":"Un seul but atteindre les objectifs en exploitant toutes les ressources."
+    }
+]

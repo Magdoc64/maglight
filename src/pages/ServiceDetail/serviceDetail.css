@@ -1,0 +1,93 @@
+.service {
+  background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.service h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+.service section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.service-nav {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+  font-size: 20px;
+}
+.service-nav-item {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: transparent;
+  transition: border-bottom 0.3s ease;
+}
+.service-nav-item:hover {
+  border-bottom: 3px solid var(--text-primary);
+}
+.service-hero {
+  position: relative;
+  width: 100%;
+}
+.service-hero img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+.service-hero-cta {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.service-hero-cta h1 {
+  color: var(--text-primary);
+  font-size: 3rem;
+  font-family: "Akaya Kanadaka", Arial, sans-serif;
+  margin-bottom: 60px;
+}
+.service-description {
+  background-color: var(--background-cta);
+  padding: 20px;
+  margin: 20px 0;
+}
+.service-method {
+  background-color: var(--background-cta);
+  padding: 20px;
+  margin: 20px 0;
+}
+.service-stage {
+  background-color: var(--background-cta);
+  padding: 20px;
+  margin: 20px 20px 40px 20px;
+}
+.service-stage ul {
+  list-style-type: none;
+  counter-reset: css-counter 0;
+}
+.service-stage li {
+  margin: 10px 0;
+  counter-increment: css-counter 1;
+  position: relative;
+}
+.service-stage li::before {
+  content: counter(css-counter);
+  color: var(--text-primary);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--background-primary);
+  text-align: center;
+  position: absolute;
+  left: -30px;
+}/*# sourceMappingURL=serviceDetail.css.map */

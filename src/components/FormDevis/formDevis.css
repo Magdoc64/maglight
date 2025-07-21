@@ -1,0 +1,183 @@
+.formModal {
+  position: fixed;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .formModal {
+    width: 70%;
+    left: 15%;
+  }
+}
+@media (min-width: 1024px) {
+  .formModal {
+    width: 50%;
+    left: 25%;
+  }
+}
+.formModal-content {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background-cta);
+  padding: 20px;
+  width: 100%;
+}
+.formModal-content-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.formModal-content-contact h2 {
+  margin: 10px;
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.formModal-content-contact-formDevis input {
+  height: 25px;
+  border-radius: 5px;
+  border-color: inherit;
+  background-color: var(--background-primary);
+  border-style: inherit;
+  box-shadow: 3px 3px 2px var(--background-primary);
+  color: var(--text-primary);
+}
+.formModal-content-contact-formDevis label {
+  margin-bottom: 5px;
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-name {
+  display: flex;
+  justify-content: space-between;
+}
+.formModal-content-contact-formDevis-name-lastname {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  width: 50%;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-name-lastname label::after {
+  content: "*";
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-name-firstname {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.formModal-content-contact-formDevis-contact-email {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  width: 50%;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-contact-email label::after {
+  content: "*";
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-contact-tel {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-objet {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-objet select {
+  height: 25px;
+  border-radius: 5px;
+  border-color: inherit;
+  background-color: var(--background-primary);
+  border-style: inherit;
+  box-shadow: 3px 3px 2px var(--background-primary);
+  color: var(--text-primary);
+}
+.formModal-content-contact-formDevis-objet label::after {
+  content: "*";
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-url {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-message {
+  display: flex;
+  flex-direction: column;
+  color: var(--background-primary);
+  font-weight: 700;
+  margin-right: 20px;
+}
+.formModal-content-contact-formDevis-message label::after {
+  content: "*";
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-message textarea {
+  background-color: var(--background-primary);
+  box-shadow: 3px 3px 2px var(--background-primary);
+  height: 50px;
+  border-radius: 5px;
+  border-style: inherit;
+  color: var(--background-primary);
+}
+.formModal-content-contact-formDevis-info {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+.formModal-content-contact-formDevis-info::before {
+  content: "*";
+  color: var(--text-secondary);
+}
+.formModal-content-contact-formDevis-choice {
+  display: flex;
+  color: var(--text-secondary);
+  font-weight: 700;
+  margin-top: 20px;
+}
+.formModal-content-contact-formDevis-choice input {
+  box-shadow: none;
+  margin: 0 5px;
+  border-color: var(--text-primary);
+}
+.formModal-content-contact-formDevis-button {
+  width: 60%;
+  margin: 20px auto;
+  background-color: var(--background-primary);
+  box-shadow: 3px 3px 2px var(--background-primary);
+  border-style: inherit;
+  padding: 5px;
+  color: var(--text-primary);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.formModal-content-button {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+}/*# sourceMappingURL=formDevis.css.map */

@@ -1,0 +1,85 @@
+.projects{
+
+    &-hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        background: linear-gradient(90deg,rgba(92, 56, 175, 1) 0%, rgba(166, 121, 233, 1) 60%);
+
+        & h1{
+            font-size: 3rem;
+            font-family: "Akaya Kanadaka",Arial, sans-serif;
+            color: var(--text-primary);
+            margin:40px;
+            
+        }
+    }
+    &-details{
+        padding: 20px 20px 40px 20px;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(90deg,rgba(92, 56, 175, 1) 0%, rgba(166, 121, 233, 1) 60%);
+        &-filter{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            align-items: center;
+            gap:40px;
+            font-size: 24px;
+            color:var(--text-primary);
+            &-item{
+                border-bottom: 3px solid transparent;
+                
+                &:hover{
+                cursor: pointer;
+                border-bottom: 3px solid var(--text-primary);
+                }
+            }
+        }
+        &-list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            &-card{
+                height: 200px;
+                border-radius: 15px;
+                background-color: var(--background-cta);
+                box-shadow: 5px 10px 4px var(--background-primary);
+                color:var(--text-secondary);
+                padding:10px;
+
+                & :hover{
+                    cursor:pointer;
+                }
+            
+                & img{
+                    object-fit: cover;
+                    width: 100%;
+                    height:70%;
+                    border-top-right-radius: 15px;
+                    border-top-left-radius: 15px;
+                }
+                &-content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 30%;
+
+                    &-title{
+                        display: flex;
+                        margin: 0;
+                    }
+                    &-tags{
+                        display: flex;
+                        gap:10px;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

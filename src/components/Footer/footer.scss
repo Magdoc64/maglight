@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    &-links{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        
+
+        &-link{
+            text-decoration: none;
+            text-align: center;
+            color: var(--text-secondary);
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+        &-link:hover{
+            border-bottom: 1px solid var(--text-secondary);
+        }
+    }
+    &-copyright{
+        color: var(--text-secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        margin-top: 20px;
+
+    }
+}
