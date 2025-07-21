@@ -9,11 +9,12 @@ import ButtonCta from '../../components/ButtonCta/ButtonCta'
 import Cards from '../../components/Card/Card'
 import Form from '../../components/Form/Form'
 import Modal from '../../components/Modal/Modal'
-import services from '../../data/services.json'
+import services from '../../data/services.js'
 import thumbnails from '../../data/thumbnails.json'
 import skills from '../../data/skills.json'
 
 const Home = () => {
+  console.log(services.imageChoiceUrl)
   return (
     <main className='container home'>
       <section className='home-hero'>

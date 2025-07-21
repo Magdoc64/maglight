@@ -1,6 +1,6 @@
 import './services.css';
 import BanniereServices from '../../assets/projet/banniere-services.webp';
-import services from '../../data/services.json';
+import services from '../../data/services.js';
 import ButtonCta from '../../components/ButtonCta/ButtonCta';
 import Card from '../../components/Card/Card'
 import Modal from '../../components/Modal/Modal';

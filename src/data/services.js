@@ -1,14 +1,23 @@
-[
+import projet1Image from "../assets/projet/P7-kasa.webp"
+import projet1Choice from "../assets/projet/exempleCode.webp"
+import projet2Image from "../assets/projet/Wordpress.webp"
+import projet2Choice from "../assets/projet/exempleWordpress.webp"
+import projet3Image from "../assets/projet/P8-Optimisation.webp"
+import projet3Choice from "../assets/projet/Google-Lighthouse-featured-image.webp"
+import projet4Image from "../assets/projet/maquette.webp"
+import projet4Choice from "../assets/projet/exempleWireframe.webp"
+
+const services = [
     {
         "id":1,
         "name":"Développement Web",
         "title": "Création de site web",
         "nameMenu":"Développement web",
         "excerpt":"Création de sites web modernes et responsives.",
-        "imageUrl":"../src/assets/projet/P7-kasa.webp",
+        "imageUrl":projet1Image,
         "imageAlt":"Exemple d'une application React",
         "link":"creation-site-web",
-        "imageChoiceUrl": "../src/assets/projet/exempleCode.webp",
+        "imageChoiceUrl": projet1Choice,
         "imageChoiceAlt": "Image de code",
         "need":"Besoin d'un site vitrine ou d'une boutique e-commerce ?",
         "soluce":"Trouvons ensemble la solution adaptée à vos besoins.",
@@ -38,10 +47,10 @@
         "title": "Refonte ou migration de site",
         "nameMenu":"Refonte WP",
         "excerpt":"Actualisation d'un site WordPress ou changement d'un CMS pour WordPress.",
-        "imageUrl":"../src/assets/projet/Wordpress.webp",
+        "imageUrl":projet2Image,
         "imageAlt":"Capture d'écran de WordPress",
         "link":"refonte-migration-site",
-        "imageChoiceUrl": "../src/assets/projet/exempleWordpress.webp",
+        "imageChoiceUrl":projet2Choice ,
         "imageChoiceAlt": "Capture d'écran d'un site WordPress",
         "need":"Vous avez un projet de refonte ou de migration de site ?",
         "soluce":"Modernisons ensemble votre site avec WordPress.",
@@ -69,10 +78,10 @@
         "title": "Référencement de site",
         "nameMenu":"Référencement SEO",
         "excerpt":"Amélioration de la visibilité de votre site sur les moteurs de recherche et de ses performances.",
-        "imageUrl":"../src/assets/projet/P8-Optimisation.webp",
+        "imageUrl":projet3Image,
         "imageAlt":"Capture d'écran d'un rapport d'optimisation SEO",
         "link":"optimisation-seo",
-        "imageChoiceUrl": "../src/assets/projet/Google-Lighthouse-featured-image.webp",
+        "imageChoiceUrl": projet3Choice,
         "imageChoiceAlt": "Capture d'écran d'un rapport Lighthouse",
         "need":"Vous souhaitez améliorer la visibilité de votre site ?",
         "soluce":"Optimisons ensemble votre référencement naturel (SEO).",
@@ -101,10 +110,10 @@
         "title": "Maquettage UX/UI",
         "nameMenu":"UX/UI Design",
         "excerpt":"Conception de maquettes et prototypes pour vos projets web.",
-        "imageUrl":"../src/assets/projet/maquette.webp",
+        "imageUrl":projet4Image,
         "imageAlt":"Capture d'écran d'une maquette Figma",
         "link":"maquettage-ux-ui",
-        "imageChoiceUrl": "../src/assets/projet/exempleWireframe.webp",
+        "imageChoiceUrl":projet4Choice ,
         "imageChoiceAlt": "Exemple d'un wireframe",
         "need":"Vous réfléchissez à créer un site mais vous n'avez pas le design ?",
         "soluce":"Construisons ensemble une maquette UX/UI pour votre projet.",
@@ -127,3 +136,5 @@
         ]
     }
 ]
+
+export default services

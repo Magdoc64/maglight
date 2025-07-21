@@ -1,4 +1,11 @@
-[
+import projet1 from "../assets/projet/P6-architecte.webp"
+import projet2 from "../assets/projet/P7-kasa.webp"
+import projet3 from "../assets/projet/P10-Argentbank.webp"
+import projet4 from "../assets/projet/P8-Optimisation.webp"
+import projet5 from "../assets/projet/P9-debuggage.webp"
+import projet6 from "../assets/projet/anteis.webp"
+
+const projects = [
     {
         "id":1,
         "name":"Porfolio architecte",
@@ -11,7 +18,7 @@
             "Création d'une modale pour l'ajout/suppression de nouveaux projets en mode édition."
         ],
         "link":"https://github.com/Magdoc64/FrontEnd.git",
-        "imageUrl":"../src/assets/projet/P6-architecte.webp",
+        "imageUrl":projet1,
         "imageAlt":"capture d'écran du portfolio de l'architecte"
     },
     {
@@ -26,7 +33,7 @@
             "Utilisation de composants pour supprimer le code redonnant."
         ],
         "link":"https://github.com/Magdoc64/P7-Kasa.git",
-        "imageUrl":"../src/assets/projet/P7-kasa.webp",
+        "imageUrl":projet2,
         "imageAlt":"capture d'écran de l'appli Kasa"
     },{
         "id":3,
@@ -40,7 +47,7 @@
             "Définition de la documentation de l'API pour le développement de la partie transaction du client à l'aide de Swagger"
         ],
         "link":"https://github.com/Magdoc64/P10-ArgentBank-Frontend.git",
-        "imageUrl":"../src/assets/projet/P10-Argentbank.webp",
+        "imageUrl":projet3,
         "imageAlt":"capture d'écran de l'appli ArgentBank"
     },{
         "id":4,
@@ -54,7 +61,7 @@
             "Ajout d'un référencement local et de données enrichies ainsi que le référencement pour les réseaux sociaux"
         ],
         "link":"https://magdoc64.github.io/P8-ninacarducci/",
-        "imageUrl":"../src/assets/projet/P8-Optimisation.webp",
+        "imageUrl":projet4,
         "imageAlt":"capture d'écran du rapport d'optimisation"
     },{
         "id":5,
@@ -68,7 +75,7 @@
             "Création de tests unitaires avec Jest afin de vérifier le bon fonctionnement"
         ],
         "link":"https://github.com/Magdoc64/p9-debugger-site-evenementiel.git",
-        "imageUrl":"../src/assets/projet/P9-debuggage.webp",
+        "imageUrl":projet5,
         "imageAlt":"capture d'écran du site débuggé"
     },{
         "id":6,
@@ -82,7 +89,8 @@
             "Rédaction de spécifications à destination du webmaster du site"
         ],
         "link":"https://anteis.net/",
-        "imageUrl":"../src/assets/projet/anteis.webp",
+        "imageUrl":projet6,
         "imageAlt":"capture d'écran du site concerné"
     }
 ]
+export default projects

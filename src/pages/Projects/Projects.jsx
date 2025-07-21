@@ -1,6 +1,6 @@
 import './projects.css'
 import { useState } from 'react'
-import projects from '../../data/projects.json';
+import projects from '../../data/projects';
 import categories from '../../data/categories.json';
 import ButtonCta from '../../components/ButtonCta/ButtonCta';
 import Modal from '../../components/Modal/Modal';

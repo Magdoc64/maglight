@@ -1,5 +1,5 @@
 import {NavLink, useParams} from 'react-router-dom'
-import services from '../../data/services.json'
+import services from '../../data/services'
 import Error from '../Error/Error'
 import Modal from '../../components/Modal/Modal'
 import FormDevis from '../../components/FormDevis/FormDevis'
