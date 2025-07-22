@@ -60,11 +60,13 @@
   background-color: var(--background-cta);
   padding: 20px;
   margin: 20px 0;
+  width: 98%;
 }
 .service-method {
   background-color: var(--background-cta);
   padding: 20px;
   margin: 20px 0;
+  width: 98%;
 }
 .service-stage {
   background-color: var(--background-cta);

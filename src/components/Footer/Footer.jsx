@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-links">
             <a href="#" className="footer-links-link">Mentions légales</a>
             <a href="#" className="footer-links-link">Politique de confidentialité</a>
-            <a href="#" className="footer-links-link">Support</a>
+            <a href='mailto:maglight64@proton.me' className="footer-links-link">Support</a>
         </div>
         <div className="footer-copyright">
                 <span>&copy; {new Date().getFullYear()}</span> 

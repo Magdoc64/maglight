@@ -5,6 +5,11 @@
   padding: 20px;
   background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
 }
+@media (max-width: 760px) {
+  .services-hero {
+    align-items: center;
+  }
+}
 .services-hero img {
   width: 100%;
   height: 50vh;
@@ -26,6 +31,13 @@
   gap: 40px;
   padding: 40px 40px 20px 40px;
 }
+@media (max-width: 760px) {
+  .services-hero-cta {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+}
 .services-hero-cta h2 {
   font-size: 1.5rem;
   color: var(--text-primary);
@@ -37,4 +49,16 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
   background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+  justify-items: center;
+}
+@media (max-width: 760px) {
+  .services-details {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .services-details {
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=services.css.map */

@@ -11,7 +11,7 @@ const Services = () => {
     <main className="container services">
         <section className="services-hero">
             <img src={BanniereServices} alt="Bannière des services" className="services-hero-image" />
-            <h1>Mes services</h1>
+            <h1>Services proposés</h1>
             <div className="services-hero-cta">
                 <h2>Vous avez un projet web en tête ?</h2>
                 <Modal Content={

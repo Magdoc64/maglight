@@ -77,7 +77,7 @@ const FormDevis = ({opened, children, onSucess, onError}) => {
                             </select>
                         </div>
                         <div className='formModal-content-contact-formDevis-url'>
-                            <label htmlFor='url'>Si vous avez déjà un site, pouvez vous préciser son url &#40;www.exemple-site.com &#41;?</label>
+                            <label htmlFor='url'>Si vous avez déjà un site, pouvez vous préciser son url?<br/> &#40;www.exemple-site.com &#41;</label>
                             <input type='text' id='url' name='url'/>
                         </div>
                         <div className='formModal-content-contact-formDevis-message'>

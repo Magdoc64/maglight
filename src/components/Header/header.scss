@@ -19,8 +19,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 40px;
 
+        @media (max-width:760px){
+            gap: 20px;
+        }
         &-item{
             text-decoration: none;
             color: var(--text-secondary);

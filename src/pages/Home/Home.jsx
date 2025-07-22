@@ -14,7 +14,6 @@ import thumbnails from '../../data/thumbnails.json'
 import skills from '../../data/skills.json'
 
 const Home = () => {
-  console.log(services.imageChoiceUrl)
   return (
     <main className='container home'>
       <section className='home-hero'>
@@ -24,7 +23,7 @@ const Home = () => {
       </section>
       <section className='home-services' id='services'>
         <h2 className='home-services-title'> 
-          <span>Mes Services</span>
+          <span>Services proposés</span>
           <Link to='/services' className='home-services-link'><img src={detailServices} alt="Accès à la page services" className="home-services-image" /></Link>
         </h2>
         <div className='home-services-description'>
@@ -60,21 +59,22 @@ const Home = () => {
           </div>
         </div>
         <div className='home-aboutme-presentation'>
-          <h2>À propos de moi</h2>
+          <h2>Qui suis-je?</h2>
           <p>
             Hello, développeuse frontend JS ES6/React.js, j'aime faire prendre vie à vos projets et vous rendre visible sur la toile au travers du code. Je suis passionnée par le développement web et je m'efforce de rester à jour avec les dernières tendances et technologies. J'aime relever des défis et trouver des solutions créatives pour répondre aux besoins de mes clients.<br />
             <br />
-            J’ai acquis des compétences en WordPress afin de m’adapter aux plus grands nombres de projets.<br />
-            <br />
-            Mon passé d'infirmière m'apporte toute la rigueur, l'organisation, et la planification nécessaire à la conduite de projet, et au développement d'un code performant et facilement maintenable.<br />
+            J’ai acquis des compétences en WordPress afin de m’adapter à un plus grand nombre de projets.<br />
             <br />
             Ma formation UX/UI designer me rend particulièrement sensible aux besoins des utilisateurs et à l'ergonomie des interfaces pour qu'elles soient la plus facile d'utilisation.<br />
+            <br />
+            Mes différentes expériences m'ont permis d'acquérir une rigueur et des capacités en matière d'organisation, et de planification nécessaire à la conduite de projet, et au développement d'un code performant et facilement maintenable.
+            <br />
           </p>
         </div>
       </section>
       <section className='home-projects' id='projects'>
         <h2>
-          <span>Mon savoir-faire</span>
+          <span>Savoir-faire</span>
           <Link to='/projects' className='home-projects-link'><img src={detailProjects} alt="Accès à la page projets" className="home-projects-image" /></Link>
         </h2>
         <div className='home-projects-skills'>

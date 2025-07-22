@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <main className="container projects">
             <section className="projects-hero">
-                <h1>Mes projets</h1>
+                <h1>Portfolio</h1>
                 <Modal Content={
                     <div className="modalMessage-success">
                         <div>Votre demande est bien envoyée!</div>

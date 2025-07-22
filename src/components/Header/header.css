@@ -24,7 +24,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
+}
+@media (max-width: 760px) {
+  .header-nav {
+    gap: 20px;
+  }
 }
 .header-nav-item {
   text-decoration: none;

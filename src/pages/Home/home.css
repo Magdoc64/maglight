@@ -3,30 +3,34 @@
   background-image: url("/src/assets/identite visuelle/Bannière-Maglight.webp");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-around;
-  padding-left: 50px;
+  padding: 20px 0 20px 50px;
   color: white;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-hero {
+    height: 60vh;
+  }
 }
 .home-hero-logo {
   width: 500px;
 }
-@media (max-width: 760px) {
+@media (max-width: 1024px) {
   .home-hero-logo {
     width: 250px;
   }
 }
 .home-hero h1 {
   width: 40%;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 @media (max-width: 760px) {
   .home-hero h1 {
     width: 100%;
-    font-size: 3rem;
   }
 }
 .home-services {
@@ -89,7 +93,10 @@
 }
 @media (min-width: 760px) and (max-width: 1024px) {
   .home-services-description {
-    font-size: 30px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
 }
 .home-services-cta {
@@ -99,15 +106,12 @@
 .home-aboutme {
   display: flex;
   background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
+  width: 100%;
 }
 @media (max-width: 760px) {
   .home-aboutme {
     flex-direction: column;
-  }
-}
-@media (min-width: 760px) and (max-width: 1024px) {
-  .home-aboutme {
-    font-size: 30px;
+    align-items: center;
   }
 }
 .home-aboutme-softskills {
@@ -120,8 +124,14 @@
 }
 @media (max-width: 760px) {
   .home-aboutme-softskills {
-    width: 100%;
+    width: 90%;
     padding: 40px 10px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-aboutme-softskills {
+    width: 40%;
+    padding: 20px 10px;
   }
 }
 .home-aboutme-softskills-avatar {
@@ -137,6 +147,7 @@
   row-gap: 40px;
   align-items: center;
   justify-content: center;
+  justify-items: center;
   margin-top: 40px;
 }
 @media (max-width: 760px) {
@@ -145,6 +156,12 @@
     flex-direction: column;
     gap: 20px;
     width: 90%;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-aboutme-softskills-description {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
   }
 }
 .home-aboutme-softskills-description-thumbnail {
@@ -161,6 +178,12 @@
 @media (max-width: 760px) {
   .home-aboutme-softskills-description-thumbnail {
     width: 70%;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-aboutme-softskills-description-thumbnail {
+    width: 60%;
+    height: 130px;
   }
 }
 .home-aboutme-softskills-description-thumbnail-title {
@@ -180,7 +203,7 @@
   font-size: 16px;
   color: var(--text-secondary);
   text-align: center;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 .home-aboutme-presentation {
   display: flex;
@@ -189,6 +212,12 @@
   align-items: center;
   padding: 40px;
   width: 50%;
+}
+@media (max-width: 760px) {
+  .home-aboutme-presentation {
+    width: 90%;
+    padding: 10px 10px;
+  }
 }
 .home-aboutme-presentation h2 {
   font-size: 36px;
@@ -206,6 +235,11 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 20px 40px 20px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-projects {
+    padding: 20px 10px 40px 10px;
+  }
 }
 .home-projects h2 {
   font-size: 36px;
@@ -226,7 +260,8 @@
 .home-projects-skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
   width: 100%;
   padding: 0 20px;
 }
@@ -240,7 +275,9 @@
 }
 @media (min-width: 760px) and (max-width: 1024px) {
   .home-projects-skills {
-    font-size: 30px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    padding: 0;
   }
 }
 .home-contact {
@@ -253,11 +290,6 @@
 @media (max-width: 760px) {
   .home-contact {
     flex-direction: column-reverse;
-  }
-}
-@media (min-width: 760px) and (max-width: 1024px) {
-  .home-contact {
-    font-size: 30px;
   }
 }
 .home-contact h2 {
@@ -274,6 +306,17 @@
   justify-content: center;
   width: 50%;
   padding: 20px;
+}
+@media (max-width: 760px) {
+  .home-contact-info {
+    width: 90%;
+    padding: 10px 10px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .home-contact-info {
+    width: 40%;
+  }
 }
 .home-contact-info-avatar {
   width: 200px;
