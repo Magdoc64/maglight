@@ -2,7 +2,7 @@
   "name": "maglight",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://magdoc64.github.io/maglight",
+  "homepage": "https://magdoc64.github.io/maglight#/",
   "type": "module",
   "scripts": {
     "dev": "vite",
