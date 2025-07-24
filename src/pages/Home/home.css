@@ -352,4 +352,21 @@
 }
 .home-contact-info-social a:hover {
   transform: scale(1.1);
+}
+.home-contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+@media (max-width: 760px) {
+  .home-contact-form {
+    width: 100%;
+  }
+}
+.home-contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }/*# sourceMappingURL=home.css.map */

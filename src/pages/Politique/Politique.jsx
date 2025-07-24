@@ -5,7 +5,7 @@ const Politique = () => {
     <main className='container politique'>
         <h1>Politique de confidentialité</h1>
         <h2>1. Introduction</h2>
-        <p>La présente politique de confidentialité a pour but d’informer les utilisateurs du site [nom de domaine] (ci-après « le Site ») sur la manière dont Maglight, micro-entreprise de développement web, collecte, utilise et protège leurs données personnelles conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.</p>
+        <p>La présente politique de confidentialité a pour but d’informer les utilisateurs du site www.maglight.com (ci-après « le Site ») sur la manière dont Maglight, micro-entreprise de développement web, collecte, utilise et protège leurs données personnelles conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.</p>
         <h2>2. Responsable du traitement</h2>
         <ul>
             <li>Nom de l’entreprise : Maglight</li>

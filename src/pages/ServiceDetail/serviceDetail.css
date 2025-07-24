@@ -1,26 +1,32 @@
 .service {
   background: linear-gradient(90deg, rgb(92, 56, 175) 0%, rgb(166, 121, 233) 60%);
   color: var(--text-secondary);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 .service h2 {
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
 .service section {
-  display: flex;
-  flex-direction: column;
   border-radius: 10px;
 }
 .service-nav {
   display: flex;
+  justify-content: center;
   gap: 20px;
-  padding: 0 20px 20px 20px;
+  padding: 20px;
   font-size: 20px;
+}
+@media (max-width: 760px) {
+  .service-nav {
+    font-size: 18px;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px 0 0 0;
+  }
 }
 .service-nav-item {
   color: var(--text-primary);
@@ -45,10 +51,17 @@
 .service-hero-cta {
   position: absolute;
   top: 10%;
-  left: 5%;
+  left: 3%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 50%;
+}
+@media (max-width: 760px) {
+  .service-hero-cta {
+    width: 100%;
+    text-align: center;
+  }
 }
 .service-hero-cta h1 {
   color: var(--text-primary);
@@ -56,22 +69,34 @@
   font-family: "Akaya Kanadaka", Arial, sans-serif;
   margin-bottom: 60px;
 }
+@media (max-width: 760px) {
+  .service-hero-cta h1 {
+    margin: 40px;
+  }
+}
 .service-description {
-  background-color: var(--background-cta);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  margin: 20px 0;
-  width: 98%;
+  background-color: var(--background-cta);
+  margin: 20px auto;
 }
 .service-method {
-  background-color: var(--background-cta);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  margin: 20px 0;
-  width: 98%;
+  background-color: var(--background-cta);
+  margin: 20px auto;
 }
 .service-stage {
-  background-color: var(--background-cta);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  margin: 20px 20px 40px 20px;
+  background-color: var(--background-cta);
+  margin: 20px auto;
 }
 .service-stage ul {
   list-style-type: none;
@@ -81,6 +106,9 @@
   margin: 10px 0;
   counter-increment: css-counter 1;
   position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
 }
 .service-stage li::before {
   content: counter(css-counter);

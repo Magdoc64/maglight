@@ -56,11 +56,7 @@ const ServiceDetail = () => {
                     ))}
                 </ul>
             </section>
-            <ButtonCta text="Demander un devis"  />
         </main>
-        
-        
-    
     )
 }
 
