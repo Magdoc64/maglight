@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
       <div className='global container'>
         <Header/>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/maglight" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/services/:linkService" element={<ServiceDetail />} />
             <Route path="/projects" element={<Projects />} />
