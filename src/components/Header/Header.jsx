@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="container header"> 
-        <NavLink to="/maglight" id='accueil' className='header-logo'><img src = {logoMaglight} alt = 'logo Maglight' /></NavLink>
+        <NavLink to="/" id='accueil' className='header-logo'><img src = {logoMaglight} alt = 'logo Maglight' /></NavLink>
         <nav className='header-nav'>
             <NavLink to="/services" className='header-nav-item' id='services'>Services proposés</NavLink>
             <NavLink to="/projects" className='header-nav-item' id='projects'>Portfolio</NavLink>
