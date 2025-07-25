@@ -1,9 +1,12 @@
-:root {
+#root {
+    display: flex;
+    flex-direction: column;
     font-family: "Rubik", Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
     box-sizing: border-box;
+    width: 100%;
 
     @media (max-width:760px) {
         font-size: 14px;
