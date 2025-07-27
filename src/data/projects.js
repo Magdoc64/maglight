@@ -1,9 +1,15 @@
-import projet1 from "../assets/projet/P6-architecte.webp"
-import projet2 from "../assets/projet/P7-kasa.webp"
-import projet3 from "../assets/projet/P10-Argentbank.webp"
-import projet4 from "../assets/projet/P8-Optimisation.webp"
-import projet5 from "../assets/projet/P9-debuggage.webp"
-import projet6 from "../assets/projet/anteis.webp"
+import projet1Card from "../assets/projet/P6-Architecte-card.webp"
+import projet1Modal from "../assets/projet/P6-Architecte-modal.webp"
+import projet2Card from "../assets/projet/P7-kasa-card.webp"
+import projet2Modal from "../assets/projet/P7-kasa-modal.webp"
+import projet3Card from "../assets/projet/P10-ArgentBank-card.webp"
+import projet3Modal from "../assets/projet/P10-ArgentBank-modal.webp"
+import projet4Card from "../assets/projet/P8-Optimisation-card.webp"
+import projet4Modal from "../assets/projet/P8-Optimisation-modal.webp"
+import projet5Card from "../assets/projet/P9-debuggage-card.webp"
+import projet5Modal from "../assets/projet/P9-debuggage-modal.webp"
+import projet6Card from "../assets/projet/anteis-card.webp"
+import projet6Modal from "../assets/projet/anteis-modal.webp"
 
 const projects = [
     {
@@ -18,7 +24,8 @@ const projects = [
             "Création d'une modale pour l'ajout/suppression de nouveaux projets en mode édition."
         ],
         "link":"https://github.com/Magdoc64/FrontEnd.git",
-        "imageUrl":projet1,
+        "imageCardUrl":projet1Card,
+        "imageModalUrl":projet1Modal,
         "imageAlt":"capture d'écran du portfolio de l'architecte"
     },
     {
@@ -32,8 +39,9 @@ const projects = [
             "Utilisation React router pour le paramétrage des différentes pages de l'appli.", 
             "Utilisation de composants pour supprimer le code redonnant."
         ],
-        "link":"https://github.com/Magdoc64/P7-Kasa.git",
-        "imageUrl":projet2,
+        "link":"https://magdoc64.github.io/P7-Kasa/",
+        "imageCardUrl":projet2Card,
+        "imageModalUrl":projet2Modal,
         "imageAlt":"capture d'écran de l'appli Kasa"
     },{
         "id":3,
@@ -46,8 +54,9 @@ const projects = [
             "Utilisation de Redux pour la mise en place de la gestion des états", 
             "Définition de la documentation de l'API pour le développement de la partie transaction du client à l'aide de Swagger"
         ],
-        "link":"https://github.com/Magdoc64/P10-ArgentBank-Frontend.git",
-        "imageUrl":projet3,
+        "link":"https://magdoc64.github.io/P10-ArgentBank-Frontend/",
+        "imageCardUrl":projet3Card,
+        "imageModalUrl":projet3Modal,
         "imageAlt":"capture d'écran de l'appli ArgentBank"
     },{
         "id":4,
@@ -61,7 +70,8 @@ const projects = [
             "Ajout d'un référencement local et de données enrichies ainsi que le référencement pour les réseaux sociaux"
         ],
         "link":"https://magdoc64.github.io/P8-ninacarducci/",
-        "imageUrl":projet4,
+        "imageCardUrl":projet4Card,
+        "imageModalUrl":projet4Modal,
         "imageAlt":"capture d'écran du rapport d'optimisation"
     },{
         "id":5,
@@ -75,7 +85,8 @@ const projects = [
             "Création de tests unitaires avec Jest afin de vérifier le bon fonctionnement"
         ],
         "link":"https://github.com/Magdoc64/p9-debugger-site-evenementiel.git",
-        "imageUrl":projet5,
+        "imageCardUrl":projet5Card,
+        "imageModalUrl":projet5Modal,
         "imageAlt":"capture d'écran du site débuggé"
     },{
         "id":6,
@@ -88,8 +99,9 @@ const projects = [
             "Réalisation de tri de cartes pour définir l'architecture, maquettage et réalisation de tests utilisateurs de validation des solutions proposées", 
             "Rédaction de spécifications à destination du webmaster du site"
         ],
-        "link":"https://anteis.net/",
-        "imageUrl":projet6,
+        "link":"",
+        "imageCardUrl":projet6Card,
+        "imageModalUrl":projet6Modal,
         "imageAlt":"capture d'écran du site concerné"
     }
 ]

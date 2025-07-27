@@ -79,7 +79,7 @@
     padding: 10px;
   }
 }
-@media (min-width: 760px) and (max-width: 1024px) {
+@media (min-width: 760px) and (max-width: 1240px) {
   .projects-details-list {
     grid-template-columns: 1fr 1fr;
   }

@@ -6,7 +6,7 @@ const ModalProject = ({ project }) => {
     return (
         <div className="modal-project">
             <div className="modal-project-image">
-                <img src={project.imageUrl} alt={project.imageAlt}/>
+                <img src={project.imageModalUrl} alt={project.imageAlt}/>
             </div>
             <div className="modal-project-text">
                 <h3 className="modal-project-text-title">{project.name}</h3>
@@ -31,8 +31,9 @@ const ModalProject = ({ project }) => {
                         ))}</ul>
                 </div>
                 <div className="modal-project-text-description-link">
-                    <h4>Lien vers le projet</h4>
-                    <a href={project.link} target="_blank">voir le projet</a>
+                    {project.link &&
+                        <a href={project.link} target="_blank">Lien vers le projet</a>
+                    }
                 </div>
             </div>
             </div>

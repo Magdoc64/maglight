@@ -45,7 +45,7 @@ const Projects = () => {
                     <Modal key={project.id} Content={<ModalProject project={project}/>}>
                         {({ setIsOpened }) => (
                         <div  className="projects-details-list-card" onClick={() => setIsOpened(true)}>
-                            <img src={project.imageUrl} alt={project.imageAlt} className="projects-details-list-card-image" />
+                            <img src={project.imageCardUrl} alt={project.imageAlt} className="projects-details-list-card-image" />
                             <div className="projects-details-list-card-content">
                                 <h3 className="projects-details-list-card-content-title">{project.name}</h3>
                                 <ul className='projects-details-list-card-content-tags'>

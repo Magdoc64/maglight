@@ -37,8 +37,8 @@ const Services = () => {
                     id={service.id}
                     name={service.title}
                     link={service.link}
-                    imageUrl={service.imageChoiceUrl}
-                    imageAlt={service.imageChoiceAlt}
+                    imageCardUrl={service.imageCardUrl}
+                    imageAlt={service.imageAlt}
                     need={service.need}
                     soluce={service.soluce}
                 />

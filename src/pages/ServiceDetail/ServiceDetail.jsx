@@ -21,7 +21,7 @@ const ServiceDetail = () => {
                 ))}
             </nav>
             <section className='service-hero'>
-                <img src={currentService.imageChoiceUrl} alt={currentService.imageChoiceAlt}/>
+                <img src={currentService.imageBanniereUrl} alt={currentService.imageAlt}/>
                 <div className='service-hero-cta'>
                     <h1>{currentService.name}</h1>
                     <Modal Content={

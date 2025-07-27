@@ -9,12 +9,12 @@
   color: var(--text-secondary);
 }
 .modal-project-image {
-  width: 95%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 10px auto;
 }
 .modal-project-image img {
   width: 100%;
-  height: 250px;
+  height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -52,8 +52,9 @@
 }
 .modal-project-text-description a {
   cursor: pointer;
-  text-decoration: inherit;
   color: var(--text-secondary);
+  margin: 10px 0 5px 0;
+  font-weight: bold;
 }
 .modal-project-text-description-technic p {
   display: flex;

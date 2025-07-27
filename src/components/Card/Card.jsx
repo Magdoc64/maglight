@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './card.css';
 import PropTypes from 'prop-types';
 
-const Card = ({id,link,imageUrl,imageAlt,name,excerpt,font,need,soluce}) => {
+const Card = ({id,link,imageCardUrl,imageAlt,name,excerpt,font,need,soluce}) => {
     let idService = id;
     let linkService = link
     const page = useNavigate();
@@ -16,7 +16,7 @@ const Card = ({id,link,imageUrl,imageAlt,name,excerpt,font,need,soluce}) => {
     }
     return link? (
         <Link to={`/services/${linkService}`} onClick={handleClick} className="card card-link">
-        {imageUrl && <img src={imageUrl} alt={imageAlt} className="card-image" />}
+        {imageCardUrl && <img src={imageCardUrl} alt={imageAlt} className="card-image" />}
             <div className="card-content">
                 <h3 className="card-content-title">{name}</h3>
                 {!excerpt ?
@@ -43,7 +43,7 @@ const Card = ({id,link,imageUrl,imageAlt,name,excerpt,font,need,soluce}) => {
         </Link>
   ):(
         <div className="card">
-            {imageUrl && <img src={imageUrl} alt={imageAlt} className="card-image" />}
+            {imageCardUrl && <img src={imageCardUrl} alt={imageAlt} className="card-image" />}
             <div className="card-content">
                 <h3 className="card-content-title">{name}</h3>
                 {!excerpt ?
@@ -74,7 +74,7 @@ Card.propTypes = {
     id: PropTypes.number,
     name: PropTypes.string.isRequired,
     excerpt: PropTypes.any,
-    imageUrl: PropTypes.string,
+    imageCardUrl: PropTypes.string,
     imageAlt: PropTypes.string,
     font: PropTypes.array,
     link: PropTypes.string,

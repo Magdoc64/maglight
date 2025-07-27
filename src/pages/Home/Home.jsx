@@ -32,7 +32,7 @@ const Home = () => {
             key={service.id}
             name={service.name}
             excerpt={service.excerpt}
-            imageUrl={service.imageChoiceUrl}
+            imageCardUrl={service.imageCardUrl}
             imageAlt={service.imageChoiceAlt}
             link={service.link}
           />

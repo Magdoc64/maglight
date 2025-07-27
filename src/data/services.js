@@ -1,11 +1,11 @@
-import projet1Image from "../assets/projet/P7-kasa.webp"
-import projet1Choice from "../assets/projet/exempleCode.webp"
-import projet2Image from "../assets/projet/Wordpress.webp"
-import projet2Choice from "../assets/projet/exempleWordpress.webp"
-import projet3Image from "../assets/projet/P8-Optimisation.webp"
-import projet3Choice from "../assets/projet/Google-Lighthouse-featured-image.webp"
-import projet4Image from "../assets/projet/maquette.webp"
-import projet4Choice from "../assets/projet/exempleWireframe.webp"
+import projet1CardImage from "../assets/projet/exempleCode-card.webp"
+import projet1CBanniereImage from "../assets/projet/exempleCode-banniere.webp"
+import projet2CardImage from "../assets/projet/exempleWordpress-card.webp"
+import projet2BanniereImage from "../assets/projet/exempleWordpress-banniere.webp"
+import projet3CardImage from "../assets/projet/lighthouseSEO-card.webp"
+import projet3BanniereImage from "../assets/projet/lighthouseSEO-banniere.webp"
+import projet4CardImage from "../assets/projet/exempleWireframe-card.webp"
+import projet4BanniereImage from "../assets/projet/exempleWireframe-banniere.webp"
 
 const services = [
     {
@@ -14,11 +14,10 @@ const services = [
         "title": "Création de site web",
         "nameMenu":"Développement web",
         "excerpt":"Création de sites web modernes et responsives.",
-        "imageUrl":projet1Image,
-        "imageAlt":"Exemple d'une application React",
+        "imageCardUrl":projet1CardImage,
+        "imageBanniereUrl": projet1CBanniereImage,
+        "imageAlt":"Image de code",
         "link":"creation-site-web",
-        "imageChoiceUrl": projet1Choice,
-        "imageChoiceAlt": "Image de code",
         "need":"Besoin d'un site vitrine ou d'une boutique e-commerce ?",
         "soluce":"Trouvons ensemble la solution adaptée à vos besoins.",
         "description":"Création de sites ou ajout de fonctionnalités sur des sites existants. Développement à l'aide de React ou de Wordpress selon vos besoins. Un développement centré utilisateur et optimisé pour le référencement naturel afin de garantir un bon usage et une visibilité à votre projet.",
@@ -47,11 +46,10 @@ const services = [
         "title": "Refonte ou migration de site",
         "nameMenu":"Refonte WP",
         "excerpt":"Actualisation d'un site WordPress ou changement d'un CMS pour WordPress.",
-        "imageUrl":projet2Image,
-        "imageAlt":"Capture d'écran de WordPress",
+        "imageCardUrl":projet2CardImage,
+        "imageBanniereUrl":projet2BanniereImage,
+        "imageAlt":"Capture d'écran d'un site WordPress",
         "link":"refonte-migration-site",
-        "imageChoiceUrl":projet2Choice ,
-        "imageChoiceAlt": "Capture d'écran d'un site WordPress",
         "need":"Vous avez un projet de refonte ou de migration de site ?",
         "soluce":"Modernisons ensemble votre site avec WordPress.",
         "description":"Modernisation de votre site, amélioration de son design et optimisation de ses performances à l'aide de WordPress et de ses très nombreuses fonctionnalités.",
@@ -78,11 +76,10 @@ const services = [
         "title": "Référencement de site",
         "nameMenu":"Référencement SEO",
         "excerpt":"Amélioration de la visibilité de votre site sur les moteurs de recherche et de ses performances.",
-        "imageUrl":projet3Image,
-        "imageAlt":"Capture d'écran d'un rapport d'optimisation SEO",
+        "imageCardUrl":projet3CardImage,
+        "imageBanniereUrl": projet3BanniereImage,
+        "imageAlt":"Capture d'écran d'un rapport Lighthouse",
         "link":"optimisation-seo",
-        "imageChoiceUrl": projet3Choice,
-        "imageChoiceAlt": "Capture d'écran d'un rapport Lighthouse",
         "need":"Vous souhaitez améliorer la visibilité de votre site ?",
         "soluce":"Optimisons ensemble votre référencement naturel (SEO).",
         "description":"Pour les applications React ou pour des sites WordPress avec thème sur-mesure : analyse de la sémantique HTML et de l'accessibilité, analyse de vos images, optimisation du contenu, amélioration de la vitesse de chargement et de l'expérience utilisateur. Possibilté de réaliser un référencement local et d'améliorer le partage sur les réseaux sociaux.",
@@ -110,11 +107,10 @@ const services = [
         "title": "Maquettage UX/UI",
         "nameMenu":"UX/UI Design",
         "excerpt":"Conception de maquettes et prototypes pour vos projets web.",
-        "imageUrl":projet4Image,
-        "imageAlt":"Capture d'écran d'une maquette Figma",
+        "imageCardUrl":projet4CardImage,
+        "imageBanniereUrl":projet4BanniereImage,
+        "imageAlt":"Exemple d'un wireframe",
         "link":"maquettage-ux-ui",
-        "imageChoiceUrl":projet4Choice ,
-        "imageChoiceAlt": "Exemple d'un wireframe",
         "need":"Vous réfléchissez à créer un site mais vous n'avez pas le design ?",
         "soluce":"Construisons ensemble une maquette UX/UI pour votre projet.",
         "description":"Conception d'une expérience utilisateur optimale et d'un design moderne et fonctionnel à l'aide de maquettes et de prototypes. Possibilité de réaliser des tests utilisateurs pour valider les choix de design et d'ergonomie et de nouvelles foncitonnalités.",
